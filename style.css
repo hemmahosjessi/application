@@ -1,4 +1,113 @@
 /* Example styling of a h1 element */
+
 h1 {
+  font-size: 96px;
+  line-height: 96px;
+  color: #dedede;
+  font-weight: 100;
+  margin-left: 430px;
+  margin-top: 0%;
+  margin-bottom: 32px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height:24px;
+  color: #666;
+  margin-left: 300px;
+} 
+
+h2 {
+  font-size: 48px;
+  font-weight: 100;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #494949;
+}
+
+.arrowimg {
+  width: 96px;
+  height: 96px;
+  padding-right: 40px;
+  }
+
+.bildochtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  margin-left: 300px;
+}
+
+.label {
+  font-size: 16px;
+  color: #dedede;
+  margin-right: 300px;
+  padding-top: 64px;
+  margin-left: 434px;
+}
+
+.preamble {
+  width: 66%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #dedede;
+  margin-top: 0%;
+  margin-right: 300px;
+  margin-left: 0px;
+}
+
+.paragraph {
+  width: 55%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
   color: #333;
+  margin-top: 0%;
+  margin-right: 300px;
+  margin-left: 0px;
+}
+
+.herowrap {
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 500px;
+}
+
+.gridbild {
+  width: 100%;
+}
+
+.gridblock_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 112px;
+  grid-gap: 1rem;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: #333333;
+  width: 100%;
+  height: 96px;
+  padding-top: 1rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 300;
+  color: #1a1a1a;
+  padding-top: 16px;
 }
