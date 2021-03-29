@@ -1,9 +1,9 @@
 /* Example styling of a h1 element */
 
 h1 {
-  font-family: Roboto;
-  font-size: 96px;
-  line-height: 96px;
+  font-family: Montserrat, sans-serif;
+  font-size: 80px;
+  line-height: 80px;
   color: #dedede;
   font-weight: 100;
   margin-left: 430px;
@@ -12,14 +12,15 @@ h1 {
 }
 
 p {
-  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  font-weight:300;
   font-size: 16px;
   line-height:24px;
-  color: #666;
+  color: #33333;
 } 
 
 h2 {
-  font-family: Roboto;
+  font-family: Montserrat, sans-serif;
   font-size: 48px;
   font-weight: 100;
   color: #333333;
@@ -51,15 +52,17 @@ body{
 }
 
 .label {
+  font-family: Montserrat, sans-serif;;
   font-size: 16px;
   color: #dedede;
-  margin-right: 300px;
+  margin-right: 500px;
   padding-top: 64px;
   margin-left: 434px;
   margin-top: 0%;
 }
 
 .preamble {
+  font-family: Montserrat, sans-serif;
   width: 66%;
   font-size: 20px;
   line-height: 30px;
@@ -87,30 +90,41 @@ body{
   height: 500px;
 }
 
-.gridbild {
-  width: 100%;
-}
-
-.gridblock_2 {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 112px;
-  grid-gap: 1rem;
-}
-
-.container {
-  position: relative;
-  text-align: left;
-  color: #333333;
-  padding-top: 1rem;
-}
-
 .link {
+  font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 300;
   color: #1a1a1a;
   padding-top: 16px;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 140px;
+}
+
+.cardimg {
+  width: 100%;
+  flex: 0 1 100%;
+}
+
+.card {
+  width: 32%;
+}
+
+.cardbody {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+  margin-top: 24px;
+  margin-right: 8px;
+}
+
+
